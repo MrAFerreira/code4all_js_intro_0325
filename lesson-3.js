@@ -131,6 +131,7 @@ if (isSleepy) {
 
 // ternary operator - ? :
 // stores first result if condition is true, second if false
+// Syntatic sugar
 let ternaryMessage = isSleepy ? "Wake up!" : "You are awake, good!";
 
 //console.log(message);
@@ -143,7 +144,31 @@ let ternaryMessage = isSleepy ? "Wake up!" : "You are awake, good!";
 let numOfLaps = 0;
 
 while (numOfLaps <= 20) {
-  console.log(numOfLaps);
+  // console.log(numOfLaps);
 
-  numOfLaps += 1;
+  //numOfLaps += 1;
+  numOfLaps++;
+  //numOfLaps--;
 }
+
+// %
+
+console.log(60 % 15 === 0);
+
+// run from 1 until 100
+// when i find a number divisible by 12 AND 15, console.log that number
+
+// control variable
+/* let count = 1;
+
+while (count <= 100) {
+  //console.log(count);
+  if (count % 12 === 0 && count % 15 === 0) {
+    console.log(`${count} is divisible by 12 and 15`);
+    break;
+  } else {
+    console.log(count);
+  }
+  count++;
+}
+ */
