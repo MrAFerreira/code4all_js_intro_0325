@@ -28,7 +28,8 @@ function cookDish() {
 }
 
 //  invoke (executar)
-//cookDish();
+// call
+cookDish();
 // hard-coded
 
 let user1 = "Diogo";
@@ -91,7 +92,7 @@ function calculateWallet(currentAmount, shoppingAmount) {
 let diogoWallet = 200;
 let catarinaWallet = 300;
 
-diogoWallet = calculateWallet(diogoWallet, 30);
+diogoWallet = 170;
 diogoWallet = calculateWallet(diogoWallet, 100);
 diogoWallet = calculateWallet(diogoWallet, 50);
 
