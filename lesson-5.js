@@ -194,3 +194,19 @@ Este método não precisa de parâmetros.
 Quando invocado o método faz console.log de um número entre 1 e 6 (ambos inclusive);
 
 */
+
+let player = {
+  name: "Diogo",
+  token: "Ship",
+  money: 1000,
+  checkBankrupt: function () {
+    if (player5.money <= 0) {
+      console.log("You lost the game!");
+    } else {
+      console.log("You still got this!");
+    }
+  },
+  buyHouse: function (housePrice) {
+    player5.money -= housePrice;
+  },
+};
