@@ -20,11 +20,13 @@ let player = {
     console.log(roundedResult);
   },
 };
-/* 
-player.money = 1000000000000000;
+
+player.buyHouse(99999);
+
+/* player.money = 1000000000000000;
 console.log(player.money);
 
-player.rollDice(); */
+player.rollDice();  */
 
 let user = {
   name: "Francisco",
@@ -44,7 +46,7 @@ let user = {
   },
 };
 
-//console.log(user.address.city.en); // Lisbon
+console.log(user.address.city.en); // Lisbon
 
 // Arrays  - Lists
 
@@ -73,9 +75,9 @@ let studentNames = ["Angela", "Emanuela", "Sara"];
 
 // random number
 
-let randomNumber = Math.floor(Math.random() * studentNames.length);
+let randomNumber = Math.floor(Math.random() * studentNames.length); // 0 - 2
 
-//console.log(studentNames[randomNumber]);
+console.log(studentNames[randomNumber]);
 //console.log(studentNames[Math.floor(Math.random() * studentNames.length)]);
 
 // Array methods
